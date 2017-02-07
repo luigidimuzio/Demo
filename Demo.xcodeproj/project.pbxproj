@@ -7,11 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B7F16CDB5C3FE114E9A4A80 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B653BEC42E83BC3F8757A257 /* Pods_Demo.framework */; };
 		A9C3D4C71E4A403400EC0FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D4C61E4A403400EC0FCB /* AppDelegate.swift */; };
 		A9C3D4C91E4A403400EC0FCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D4C81E4A403400EC0FCB /* ViewController.swift */; };
 		A9C3D4CC1E4A403400EC0FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C3D4CA1E4A403400EC0FCB /* Main.storyboard */; };
 		A9C3D4CE1E4A403400EC0FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C3D4CD1E4A403400EC0FCB /* Assets.xcassets */; };
 		A9C3D4D11E4A403400EC0FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C3D4CF1E4A403400EC0FCB /* LaunchScreen.storyboard */; };
+		A9C3D5281E4A434500EC0FCB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5051E4A434500EC0FCB /* Request.swift */; };
+		A9C3D5291E4A434500EC0FCB /* ServiceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5061E4A434500EC0FCB /* ServiceCategory.swift */; };
+		A9C3D52A1E4A434500EC0FCB /* ServiceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5071E4A434500EC0FCB /* ServiceDetail.swift */; };
+		A9C3D52B1E4A434500EC0FCB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5081E4A434500EC0FCB /* User.swift */; };
+		A9C3D52C1E4A434500EC0FCB /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5091E4A434500EC0FCB /* Zone.swift */; };
+		A9C3D52D1E4A434500EC0FCB /* GeoPoint+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D50B1E4A434500EC0FCB /* GeoPoint+Realm.swift */; };
+		A9C3D52E1E4A434500EC0FCB /* OrderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D50C1E4A434500EC0FCB /* OrderStore.swift */; };
+		A9C3D52F1E4A434500EC0FCB /* Place+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D50D1E4A434500EC0FCB /* Place+Realm.swift */; };
+		A9C3D5301E4A434500EC0FCB /* RealmGeoPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D50E1E4A434500EC0FCB /* RealmGeoPoint.swift */; };
+		A9C3D5311E4A434500EC0FCB /* RealmOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D50F1E4A434500EC0FCB /* RealmOrder.swift */; };
+		A9C3D5321E4A434500EC0FCB /* RealmPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5101E4A434500EC0FCB /* RealmPlace.swift */; };
+		A9C3D5331E4A434500EC0FCB /* RealmServiceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5111E4A434500EC0FCB /* RealmServiceCategory.swift */; };
+		A9C3D5341E4A434500EC0FCB /* RealmServiceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5121E4A434500EC0FCB /* RealmServiceDetail.swift */; };
+		A9C3D5351E4A434500EC0FCB /* RealmTimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5131E4A434500EC0FCB /* RealmTimeRange.swift */; };
+		A9C3D5361E4A434500EC0FCB /* Request+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5141E4A434500EC0FCB /* Request+Realm.swift */; };
+		A9C3D5371E4A434500EC0FCB /* ServiceCategory+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5151E4A434500EC0FCB /* ServiceCategory+Realm.swift */; };
+		A9C3D5381E4A434500EC0FCB /* ServiceDetail+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5161E4A434500EC0FCB /* ServiceDetail+Realm.swift */; };
+		A9C3D5391E4A434500EC0FCB /* TimeRange+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D5171E4A434500EC0FCB /* TimeRange+Realm.swift */; };
+		A9C3D53D1E4A43A100EC0FCB /* GeoPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D53A1E4A43A100EC0FCB /* GeoPoint.swift */; };
+		A9C3D53E1E4A43A100EC0FCB /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D53B1E4A43A100EC0FCB /* Place.swift */; };
+		A9C3D53F1E4A43A200EC0FCB /* TimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3D53C1E4A43A100EC0FCB /* TimeRange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +44,30 @@
 		A9C3D4CD1E4A403400EC0FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C3D4D01E4A403400EC0FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9C3D4D21E4A403400EC0FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C3D5051E4A434500EC0FCB /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		A9C3D5061E4A434500EC0FCB /* ServiceCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCategory.swift; sourceTree = "<group>"; };
+		A9C3D5071E4A434500EC0FCB /* ServiceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDetail.swift; sourceTree = "<group>"; };
+		A9C3D5081E4A434500EC0FCB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A9C3D5091E4A434500EC0FCB /* Zone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
+		A9C3D50B1E4A434500EC0FCB /* GeoPoint+Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeoPoint+Realm.swift"; sourceTree = "<group>"; };
+		A9C3D50C1E4A434500EC0FCB /* OrderStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderStore.swift; sourceTree = "<group>"; };
+		A9C3D50D1E4A434500EC0FCB /* Place+Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Place+Realm.swift"; sourceTree = "<group>"; };
+		A9C3D50E1E4A434500EC0FCB /* RealmGeoPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmGeoPoint.swift; sourceTree = "<group>"; };
+		A9C3D50F1E4A434500EC0FCB /* RealmOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmOrder.swift; sourceTree = "<group>"; };
+		A9C3D5101E4A434500EC0FCB /* RealmPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPlace.swift; sourceTree = "<group>"; };
+		A9C3D5111E4A434500EC0FCB /* RealmServiceCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmServiceCategory.swift; sourceTree = "<group>"; };
+		A9C3D5121E4A434500EC0FCB /* RealmServiceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmServiceDetail.swift; sourceTree = "<group>"; };
+		A9C3D5131E4A434500EC0FCB /* RealmTimeRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmTimeRange.swift; sourceTree = "<group>"; };
+		A9C3D5141E4A434500EC0FCB /* Request+Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Request+Realm.swift"; sourceTree = "<group>"; };
+		A9C3D5151E4A434500EC0FCB /* ServiceCategory+Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceCategory+Realm.swift"; sourceTree = "<group>"; };
+		A9C3D5161E4A434500EC0FCB /* ServiceDetail+Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceDetail+Realm.swift"; sourceTree = "<group>"; };
+		A9C3D5171E4A434500EC0FCB /* TimeRange+Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeRange+Realm.swift"; sourceTree = "<group>"; };
+		A9C3D53A1E4A43A100EC0FCB /* GeoPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoPoint.swift; sourceTree = "<group>"; };
+		A9C3D53B1E4A43A100EC0FCB /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		A9C3D53C1E4A43A100EC0FCB /* TimeRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeRange.swift; sourceTree = "<group>"; };
+		B653BEC42E83BC3F8757A257 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21BF18B2C43313469D2E6BA /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F116BB767C24B2F011373F29 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +75,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7F16CDB5C3FE114E9A4A80 /* Pods_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A8C61CBDD3A0B9BD553271B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B653BEC42E83BC3F8757A257 /* Pods_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AC56CD08489401BC7D10FBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F116BB767C24B2F011373F29 /* Pods-Demo.debug.xcconfig */,
+				C21BF18B2C43313469D2E6BA /* Pods-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A9C3D4BA1E4A403400EC0FCB = {
 			isa = PBXGroup;
 			children = (
 				A9C3D4C51E4A403400EC0FCB /* Demo */,
 				A9C3D4C41E4A403400EC0FCB /* Products */,
+				7AC56CD08489401BC7D10FBA /* Pods */,
+				5A8C61CBDD3A0B9BD553271B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +120,8 @@
 		A9C3D4C51E4A403400EC0FCB /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A9C3D4F31E4A434500EC0FCB /* Model */,
+				A9C3D50A1E4A434500EC0FCB /* Persistence */,
 				A9C3D4C61E4A403400EC0FCB /* AppDelegate.swift */,
 				A9C3D4C81E4A403400EC0FCB /* ViewController.swift */,
 				A9C3D4CA1E4A403400EC0FCB /* Main.storyboard */,
@@ -64,6 +132,41 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		A9C3D4F31E4A434500EC0FCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9C3D53A1E4A43A100EC0FCB /* GeoPoint.swift */,
+				A9C3D53B1E4A43A100EC0FCB /* Place.swift */,
+				A9C3D53C1E4A43A100EC0FCB /* TimeRange.swift */,
+				A9C3D5051E4A434500EC0FCB /* Request.swift */,
+				A9C3D5061E4A434500EC0FCB /* ServiceCategory.swift */,
+				A9C3D5071E4A434500EC0FCB /* ServiceDetail.swift */,
+				A9C3D5081E4A434500EC0FCB /* User.swift */,
+				A9C3D5091E4A434500EC0FCB /* Zone.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9C3D50A1E4A434500EC0FCB /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A9C3D50B1E4A434500EC0FCB /* GeoPoint+Realm.swift */,
+				A9C3D50C1E4A434500EC0FCB /* OrderStore.swift */,
+				A9C3D50D1E4A434500EC0FCB /* Place+Realm.swift */,
+				A9C3D50E1E4A434500EC0FCB /* RealmGeoPoint.swift */,
+				A9C3D50F1E4A434500EC0FCB /* RealmOrder.swift */,
+				A9C3D5101E4A434500EC0FCB /* RealmPlace.swift */,
+				A9C3D5111E4A434500EC0FCB /* RealmServiceCategory.swift */,
+				A9C3D5121E4A434500EC0FCB /* RealmServiceDetail.swift */,
+				A9C3D5131E4A434500EC0FCB /* RealmTimeRange.swift */,
+				A9C3D5141E4A434500EC0FCB /* Request+Realm.swift */,
+				A9C3D5151E4A434500EC0FCB /* ServiceCategory+Realm.swift */,
+				A9C3D5161E4A434500EC0FCB /* ServiceDetail+Realm.swift */,
+				A9C3D5171E4A434500EC0FCB /* TimeRange+Realm.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9C3D4D51E4A403400EC0FCB /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
+				87ABCFB4997F86E12AF95FE3 /* [CP] Check Pods Manifest.lock */,
 				A9C3D4BF1E4A403400EC0FCB /* Sources */,
 				A9C3D4C01E4A403400EC0FCB /* Frameworks */,
 				A9C3D4C11E4A403400EC0FCB /* Resources */,
+				C31E73584056DB028A1F489E /* [CP] Embed Pods Frameworks */,
+				42D142BAAF8727A44E227ADA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +237,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42D142BAAF8727A44E227ADA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87ABCFB4997F86E12AF95FE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C31E73584056DB028A1F489E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9C3D4BF1E4A403400EC0FCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C3D5321E4A434500EC0FCB /* RealmPlace.swift in Sources */,
+				A9C3D5301E4A434500EC0FCB /* RealmGeoPoint.swift in Sources */,
+				A9C3D5341E4A434500EC0FCB /* RealmServiceDetail.swift in Sources */,
+				A9C3D52D1E4A434500EC0FCB /* GeoPoint+Realm.swift in Sources */,
+				A9C3D5381E4A434500EC0FCB /* ServiceDetail+Realm.swift in Sources */,
+				A9C3D5331E4A434500EC0FCB /* RealmServiceCategory.swift in Sources */,
+				A9C3D52E1E4A434500EC0FCB /* OrderStore.swift in Sources */,
 				A9C3D4C91E4A403400EC0FCB /* ViewController.swift in Sources */,
+				A9C3D5311E4A434500EC0FCB /* RealmOrder.swift in Sources */,
+				A9C3D53E1E4A43A100EC0FCB /* Place.swift in Sources */,
+				A9C3D52B1E4A434500EC0FCB /* User.swift in Sources */,
+				A9C3D5391E4A434500EC0FCB /* TimeRange+Realm.swift in Sources */,
+				A9C3D5371E4A434500EC0FCB /* ServiceCategory+Realm.swift in Sources */,
+				A9C3D5291E4A434500EC0FCB /* ServiceCategory.swift in Sources */,
+				A9C3D52F1E4A434500EC0FCB /* Place+Realm.swift in Sources */,
+				A9C3D5281E4A434500EC0FCB /* Request.swift in Sources */,
+				A9C3D52A1E4A434500EC0FCB /* ServiceDetail.swift in Sources */,
+				A9C3D52C1E4A434500EC0FCB /* Zone.swift in Sources */,
 				A9C3D4C71E4A403400EC0FCB /* AppDelegate.swift in Sources */,
+				A9C3D53D1E4A43A100EC0FCB /* GeoPoint.swift in Sources */,
+				A9C3D53F1E4A43A200EC0FCB /* TimeRange.swift in Sources */,
+				A9C3D5351E4A434500EC0FCB /* RealmTimeRange.swift in Sources */,
+				A9C3D5361E4A434500EC0FCB /* Request+Realm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +431,7 @@
 		};
 		A9C3D4D61E4A403400EC0FCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F116BB767C24B2F011373F29 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -268,6 +444,7 @@
 		};
 		A9C3D4D71E4A403400EC0FCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21BF18B2C43313469D2E6BA /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -297,6 +474,7 @@
 				A9C3D4D71E4A403400EC0FCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
